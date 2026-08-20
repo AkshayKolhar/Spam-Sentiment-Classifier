@@ -9,10 +9,10 @@ print("   Spam & Sentiment Classifier")
 print("======================================")
 
 while True :
-    message=input("/enter the message (exit for quit ): ")
+    message=input("\nenter the message (exit for quit ): ")
 
     if message.strip().lower() == "exit":
-        print("/nProgramm over ")
+        print("\nProgramm over ")
         break
 
     if not message.strip():
