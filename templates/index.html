@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spam & Sentiment Classifier</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Spam & Sentiment Classifier</h1>
+
+        <p>Enter a message to analyze it.</p>
+
+        <textarea
+            id="message"
+            placeholder="Enter your message here..."
+        ></textarea>
+
+        <button onclick="predictMessage()">
+            Predict
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
