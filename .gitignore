@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.spam-sentiment/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+
+# Logs
+*.log
